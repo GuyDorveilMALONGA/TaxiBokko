@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<section class="container-fluid justify-center text-light" style="background-image:url({{ asset('images/bg-login-driver.jpg') }}); width:100vw; height:100vh; background-size:cover">
+<section class="container-fluid justify-center text-light" style="background-image:url({{ asset('images/img8.jpg') }}); width:100vw; height:100vh; background-size:cover">
     <div class="container justify-center mt-5">
         <div class="workinghny-form-grid">
             <div class="main-hotair">

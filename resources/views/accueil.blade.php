@@ -94,7 +94,7 @@
     <header id="header" class="fixed-top navbar-dark bg-dark">
       <div class="container d-flex align-items-center justify-content-lg-between">
   
-        <h1 class="logo me-auto me-lg-0"><a href="/">Mba<span>ngo</span></a></h1>
+        <h1 class="logo me-auto me-lg-0"><a href="/">Taxi<span>Sûr</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="{{ asset('images/logo.png') }}" alt="" class="img-fluid"></a>-->
   
@@ -115,7 +115,7 @@
             <li class="dropdown"><a href="#business"><span>Business</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="#cc2">Comment ça marche</a></li>
-                <li><a href="#tarif">Les offres Smart Busiess</a></li>
+                <li><a href="#tarif">Les offres Smart Business</a></li>
               </ul>
             </li>
             
@@ -123,7 +123,7 @@
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
   
-        <a href="#about" class="get-started-btn scrollto">Inscriptions</a>
+        <a href="/login-driver" class="get-started-btn scrollto">Inscriptions</a>
   
       </div>
     </header><!-- End Header -->

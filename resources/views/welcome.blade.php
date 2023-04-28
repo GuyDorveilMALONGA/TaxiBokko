@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Mbango</title>
+  </script>
+
+  <title>TaxiSûr</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,7 +45,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="/">Mba<span>ngo</span></a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Taxi<span>Sûr</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="{{ asset('images/logo.png') }}" alt="" class="img-fluid"></a>-->
 
@@ -72,19 +74,24 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#about" class="get-started-btn scrollto">Inscriptions</a>
+      <a href="/register-driver" class="get-started-btn scrollto">Inscriptions</a>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center" style="background-image:url({{ asset('images/bg-home.jpg') }})">
+  <section id="hero" class="d-flex align-items-center justify-content-center" style="background-image:url({{ asset('images/taxi1.jpg') }})">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>Bienvenue chez MBANGO,</h1>
+          <h1>WELCOME</h1>
           <h2>Le vtc local qui vous accompagne en toute sécurité dans tous vos trajets.</h2>
+          <hr>
+          <a href="https://www.apple.com/app-store/"><img src="images/appstore.png" class="img-thumbnail" alt="playstore m-4" style="background-color:transparent; border:0em; margin-bottom:5px "></a>
+          
+          <a href="https://play.google.com/store/apps?hl=fr&gl=US"><img src="images/playstore.png" class="img-thumbnail" alt="playstore m-4" style="background-color:transparent; border:0em; margin-bottom:5px "></a>
+
         </div>
       </div>
 
@@ -120,10 +127,10 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="{{ asset('images/1.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('images/im9.png') }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>A propos de MBANGO</h3>
+            <h3>A propos de TaxiSûr</h3>
             <p class="fst-italic">
             Le meilleur choix de transport pour une agréable journée.
             </p>
@@ -133,9 +140,9 @@
               <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul> -->
             <p>
-            MBANGO est le service VTC à la demande qui vous accompagnera en toute sécurité dans tous vos déplacements locaux.
+              TaxiSûr est le service VTC à la demande qui vous accompagnera en toute sécurité dans tous vos déplacements locaux.
             </p>
-            <p>Via l’application vous pourrez commander votre chauffeur et vous déplacer vers la destination de votre choix en indiquant simplement la géolocalisation de votre destination finale.</p>
+            <p>Via notre application vous pourrez commander votre chauffeur et vous déplacer vers la destination de votre choix en indiquant simplement la géolocalisation de votre destination finale.</p>
           </div>
         </div>
 
@@ -157,7 +164,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-devices"></i></div>
               <!-- <h4><a href="">Lorem Ipsum</a></h4> -->
-              <p>Activez l’application MBANGO, saisissez votre destination via géolocalisation puis validez le montant estimé de votre trajet.</p>
+              <p>Activez l’application TaxiSûr, saisissez votre destination via géolocalisation puis validez le montant estimé de votre trajet.</p>
             </div>
           </div>
 
@@ -191,22 +198,22 @@
       </div>
 
         <div class="row">
-          <div class="image col-lg-6" style='background-image: url({{ asset("images/2.jpg")}});' data-aos="fade-right"></div>
+          <div class="image col-lg-6" style='background-image: url({{ asset("images/unnamed.png")}});' data-aos="fade-right"></div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-shield"></i>
               <h4>Sécurité</h4>
-              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+              <p>Vous pouvez compté sur nous pour la sécurité et la confidentialité</p>
             </div>
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bxs-timer"></i>
               <h4>Ponctualité</h4>
-              <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <p>Nous sommes à votre disposition, votre heure c'est notre heure</p>
             </div>
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
               <i class="bx bx-images"></i>
               <h4>Discrétion</h4>
-              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+              <p>Dans le calme nous faisons, chez nous vous vous sentiriez comme chez vous</p>
             </div>
           </div>
         </div>
@@ -218,7 +225,7 @@
 
 <!-- CHAUFFEURS -->
     <!-- ======= Services Section ======= -->
-    <section id="cc1" class="services" style="background-color:#f7f7f7">
+    <section id="cc1" class="services" style="background-color:#ffc107">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -231,7 +238,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxs-devices"></i></div>
               <!-- <h4><a href="">Lorem Ipsum</a></h4> -->
-              <p>Activez l’application MBANGO, saisissez votre destination via géolocalisation puis validez le montant estimé de votre trajet.</p>
+              <p>Activez l’application TaxiSûr, saisissez votre destination via géolocalisation puis validez le montant estimé de votre trajet.</p>
             </div>
           </div>
 
@@ -262,9 +269,12 @@
       <div class="container" data-aos="zoom-in">
 
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3>Essayer pour voir plus</h3>
+          <p class="text">Nos brix sont tres abordables</p>
+          <a class="cta-btn" href="#">Prix</a>
+          <a class="cta-btn" href="#">Engagement</a>
+        
+        
         </div>
 
       </div>
@@ -279,19 +289,21 @@
 
         <div class="row">
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>Simplifiez vos déplacements professionnels <br/> ainsi que ceux de vos collaborateurs.</h3>
-            <p>Entre lieux de rendez-vous éloignés, temps restreint entre 2 rendez-vous ou encore voyages d’affaires.</p>
-            <p>Nos solutions Faster Business répondent à toutes vos problématiques de mobilité.</p>
+            <h3>RESERVER VOTRE CHAUFFEUR EN AVANCE<br/> Planning chauffeur bloqué au moment de votre réservation.</h3>
+            <p>Un prix fixe est communiqué à l’avance, aucune majoration
+              Un accueil privilégié aux Aéroports, attente avec pancarte gratuite.</p>
+            <p>Suivi de l’arrivée de vol ou de train
+              Vous recevez le numéro de votre chauffeur par SMS.</p>
           </div>
           <div class="offset-lg-1 col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content text-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <!-- <h4><a href="">Sed ut perspiciatis</a></h4> -->
-              <p>Smart</p>
+              <p>Infos flash</p>
               <ul>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                <li><i class="ri-check-double-line"></i> Vous pouvez comme tous nos clients fideles beneficié des reductions.</li>
+                <li><i class="ri-check-double-line"></i> Tenter de remporter nos t-shirt, en prenant 2 courses dans la joiurnée.</li>
+                <li><i class="ri-check-double-line"></i> Le meillleur du confort, c'est chez nous.</li>
               </ul>
               <a href="#contact" class="get-started-btn scrollto" style="color:black">Contactez-notre Equipe</a>
             </div>
@@ -307,7 +319,7 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Contact Us</p>
+          <p>Contactez nous</p>
         </div>
 
         <div>
@@ -321,19 +333,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Rue lib 109 SICAP LIBERTE IV</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>guydorveilmalonga@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Phone:</h4>
+                <p>+221 77 762 99 53</p>
               </div>
 
             </div>
@@ -360,9 +372,9 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Message envoyé !!!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Laissez nous un message</button></div>
             </form>
 
           </div>
@@ -382,12 +394,12 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Gp<span>.</span></h3>
+              <h3>ISI<span>.</span></h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Medina <br>
+                Groupe ISI<br><br>
+                <strong>Phone:</strong> +221 77 762 99 53<br>
+                <strong>Email:</strong> guydorveilmalonga@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -400,10 +412,10 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Liens utils</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Acceuil</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">A propos</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
@@ -411,21 +423,21 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nos services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Transport</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Logistique</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Livraison</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Entretien</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Boite aux lettres</h4>
+            <p>Vous pouvez vous abonnez à notre boite aux lettres</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email"><input type="submit" value="s'inscrire">
             </form>
 
           </div>
@@ -436,14 +448,14 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+        &copy; Copyright 2023 <strong><span>ISI</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Guy Dorveil MAlONGA</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -463,6 +475,9 @@
   <!-- Template Main JS File -->
   <script src="{{ asset('js/main.js') }}"></script>
 
+
 </body>
+
+
 
 </html>

@@ -23,7 +23,9 @@ body {
     color: #ffd584;
     text-decoration: none;
   }
-  
+.txtboko{
+  display: none;
+}
   h1,
   h2,
   h3,

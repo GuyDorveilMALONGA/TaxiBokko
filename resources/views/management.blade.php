@@ -21,7 +21,7 @@
             <!-- social icons -->
                         <!--css interne-->
                         <style> h2{color:#e8ce07;} </style>
-            <a class="navbar-brand" href="welcome"> <h2>Taxibokko</h2> </a>
+            <a class="navbar-brand" href="welcome"> <h2>TaxiSûr</h2> </a>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             &nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
